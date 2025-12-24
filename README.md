@@ -130,7 +130,7 @@ The word count table includes:
 
 ### Thread Scaling (Sample Results)
 
-![Thread Benchmark](output/threads.svg)
+![Thread Benchmark](outputs/threads.svg)
 
 The benchmarks demonstrate:
 - Linear scaling in No-GIL Python up to CPU core count
@@ -139,7 +139,7 @@ The benchmarks demonstrate:
 
 ### Format Performance (Sample Results)
 
-![Format Benchmark](output/formats.svg)
+![Format Benchmark](outputs/formats.svg)
 
 Key findings:
 - **Parquet**: Best for selective column queries (5-10x faster reads)
